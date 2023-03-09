@@ -16,6 +16,11 @@ Function to invoke phonecall
 
 <img width="717" alt="image" src="https://user-images.githubusercontent.com/85700971/223939567-378aa270-989d-4757-857e-911554ead397.png">
 
+Function to invoke SMS:
+
+![image](https://user-images.githubusercontent.com/85700971/223940887-a8efc608-264d-4e67-87c6-6514a43fef3d.png)
+
+
 
 
 ![Untitled video (1)](https://user-images.githubusercontent.com/85700971/222949415-2eb0d5c8-f57e-4703-acde-008e0229bbb8.gif)
