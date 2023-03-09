@@ -23,7 +23,10 @@ Function to invoke phonecall
 
 Function to invoke SMS:
 
-![image](https://user-images.githubusercontent.com/85700971/223940887-a8efc608-264d-4e67-87c6-6514a43fef3d.png)
+![image](https://user-images.githubusercontent.com/85700971/223940887-a8efc608-264d-4e67-87c6-6514a43fef3d.png) <br>
+
+![Untitled video (3)](https://user-images.githubusercontent.com/85700971/223948120-e3021b06-0f44-4615-894a-e7c8599b94de.gif)
+
 
 Function to invoke weblink :
 
