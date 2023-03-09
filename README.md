@@ -34,9 +34,6 @@ Function to invoke weblink :
 
 
 
-![Untitled video (1)](https://user-images.githubusercontent.com/85700971/222949415-2eb0d5c8-f57e-4703-acde-008e0229bbb8.gif)
-
-![implicitweblink](https://user-images.githubusercontent.com/85700971/223028116-eaf8e5d0-dd03-4cae-b328-0a0696969446.gif)
 
 
 
