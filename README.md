@@ -14,7 +14,9 @@ To apply implicit intent concepts and invoke web link & phone calls.
 
 Function to invoke phonecall 
 
-<img width="717" alt="image" src="https://user-images.githubusercontent.com/85700971/223939567-378aa270-989d-4757-857e-911554ead397.png">![Untitled video (2)](https://user-images.githubusercontent.com/85700971/223946556-5b13b247-993e-4d04-9436-00516d575851.gif)
+<img width="717" alt="image" src="https://user-images.githubusercontent.com/85700971/223939567-378aa270-989d-4757-857e-911554ead397.png">  <br>
+
+![Untitled video (2)](https://user-images.githubusercontent.com/85700971/223946556-5b13b247-993e-4d04-9436-00516d575851.gif)
 
 
 
