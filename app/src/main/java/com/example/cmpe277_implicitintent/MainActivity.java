@@ -14,6 +14,11 @@ import android.widget.EditText;
 import android.widget.Toast;
 import android.util.Log;
 
+//BH Start
+import android.app.Activity;
+import android.view.Menu;
+//BH End
+
 
 import static android.content.ContentValues.TAG;
 public class MainActivity extends AppCompatActivity {
@@ -45,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //Code for PhoneCall
+        //to invoke PhoneCall
         final Button ringButton = findViewById(R.id.ringButton);
         final EditText ringText =  findViewById(R.id.ringText);
 
@@ -70,6 +75,31 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Please enter a valid Phone Number", Toast.LENGTH_LONG).show();
                 }
             }
+        });
+
+        final Button smsButton = findViewById(R.id.smsButton);
+        final EditText smsText =  findViewById(R.id.smsText);
+        smsButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                String smsContent =  smsText.getText().toString();
+                String phoneNumber =  ringText.getText().toString();
+
+
+                        Intent smsIntent = new Intent(Intent.ACTION_VIEW);
+                        smsIntent.setData(Uri.parse("smsto:"));
+
+
+                        smsIntent.putExtra("address"  , phoneNumber);
+                smsIntent.putExtra("sms_body"  , "Test ");
+                try {
+                        startActivity(smsIntent);
+                        finish();
+                    Log.i("Finished sending SMS...", "");
+                    } catch (ActivityNotFoundException e) {
+                        Toast.makeText(getApplicationContext(), "Please install a SMS App",  Toast.LENGTH_LONG).show();
+                        e.printStackTrace();
+                    }
+                }
         });
 
     }
