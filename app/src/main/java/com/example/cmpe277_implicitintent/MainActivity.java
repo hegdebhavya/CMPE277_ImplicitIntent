@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                         smsIntent.putExtra("address"  , phoneNumber);
-                smsIntent.putExtra("sms_body"  , "Test ");
+                smsIntent.putExtra("sms_body"  , smsContent);
                 try {
                         startActivity(smsIntent);
                         finish();
