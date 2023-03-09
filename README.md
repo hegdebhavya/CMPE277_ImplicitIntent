@@ -22,7 +22,7 @@ Function to invoke SMS:
 
 Function to invoke weblink :
 
-<img width="443" alt="image" src="https://user-images.githubusercontent.com/85700971/223943009-947b3df8-f745-4965-bc84-2dea43c2656a.png">
+<img width="543" alt="image" src="https://user-images.githubusercontent.com/85700971/223943429-47e1e0ca-630a-4c3a-b019-7c3b81db9a94.png">
 
 
 
